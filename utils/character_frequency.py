@@ -29,7 +29,7 @@ eng_freq = {
 
 def chars_valid(bytestr: bytes) -> bool:
     for x in bytestr:
-        if x <= 8 or (x >= 14 and x <= 31):
+        if x <= 8 or (x >= 14 and x <= 31) or x > 127:
             return False
     return True
 
