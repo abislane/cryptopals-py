@@ -10,4 +10,5 @@ out_bytes = xor.xor_decode(in_bytes, key)
 out_hex = bc.bytes_to_hex(out_bytes)
 
 assert expected_out == out_hex
+print('Challenge 5 completed!')
 
